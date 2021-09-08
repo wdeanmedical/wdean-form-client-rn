@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "jasmine": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, {"extensions": [".js"]}],
+    "react/forbid-prop-types": 0,
+    "prettier/prettier": [
+      "error", {
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "es5"
+    }],
+    "semi": [2, "never"],
+    "comma-dangle": [2, "always-multiline"],
+    "arrow-parens": "off"
+  }
+}
